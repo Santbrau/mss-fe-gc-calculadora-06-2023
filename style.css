@@ -1,7 +1,11 @@
+
+/* pantalla */
 .input-screen {
     background-color: rgb(221, 221, 221);
     font-size: 2vw;
 }
+
+/* "container" */
 
 .calculator-area {
     width: 70%;
@@ -35,6 +39,8 @@
     font-weight: bolder;
 }
 
+/* botones numeros */
+
 .btn-outline-secondary {
     background: linear-gradient(to right,
             #ff9741 0%,
@@ -58,6 +64,8 @@
     color: #000000 !important;
 }
 
+/* boton clear */
+
 .btn-outline-danger {
     background: linear-gradient(to right,
             #f87171 0%,
@@ -78,6 +86,8 @@
     color: white;
 }
 
+/* boton igual */
+
 .btn-outline-success {
 background: linear-gradient(to right,
 #ffe657 0%,
@@ -93,6 +103,8 @@ border-color: rgb(172, 132, 0) !important;
 .btn-outline-success:hover {
     background-position: 0 0;
 }
+
+/* boton operadores */
 
 .btn-outline-primary {
     background: linear-gradient(to right,
